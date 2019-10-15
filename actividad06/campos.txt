@@ -1,0 +1,81 @@
+datos del formulario
+nro formulario
+rut_chileno
+fecha solicitud
+
+
+
+
+informacion solicitante
+primer apellildo
+segundo apellido
+nombres
+fecha nacimiento (dividido en dia, mes y año)
+estado civil 
+pais de nacimiento
+nacionalidad actual
+sexo
+tiene vinculo (si no)
+vinculo con chileno
+vinculo con extranjero (permanencia definitiva)
+tipo de vinculo
+nombre del padre
+nacionalidad de origen padre
+nacionalidad actual del padre
+nombre madre
+nacionalidad origen madre
+nacionalidad actual madre
+
+
+actividad y direccion particular
+profesion/oficio
+actividad a realizar en chilito (lista de weas)
+domicilio particular
+comuna
+telefono fijo
+email
+celular
+
+
+para el dependiente
+cedula
+nom bre titular
+relacion o parentezco
+
+
+
+para el titular:
+nro dependientes acompañantes
+
+
+
+permiso de residencia
+ipo visa o residencia actual
+autoridad otorgante
+titular/dependiente
+fecha_inicio (dia, mes y año)
+fecha erminao (idem)
+nombre vinculo, institucion y/o empresa donde realiza actividades
+rut
+fono
+
+
+
+sanciones
+tiene sanciones (si/no)
+autoridad de la sancion
+fecha_sancion
+
+
+beneficios sociales:
+tipo de residencia
+condicion (titular/dependiente)
+calidad visacion
+plazo
+
+
+
+
+solicitud del autorizacion de trabajo: (solo titulares)
+desea obtener permiso (si/no)
+

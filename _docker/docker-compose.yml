@@ -1,0 +1,30 @@
+version: "3"
+
+services:
+  sqlserver2017:
+    image: mcr.microsoft.com/mssql/server:2017-latest-ubuntu
+    container_name: sqlserver
+    networks: 
+      - mssqlnet
+    expose:
+      - 1433
+    ports:
+      - 1433:1433
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=@Garcia.8475@
+      - TZ=America/Santiago
+      - MSSQL_AGENT_ENABLED=true
+      - MSSQL_ENABLE_HADR=1
+      - MSSQL_MEMORY_LIMIT_MB=4096
+    volumes:
+      # Carpeta para compartir entre el contenedor y el host
+      # y poder restaurar archivos .bak desde sqlcmd.
+      - d:/scriptDS:/scriptDS
+      - mssql_data:/var/opt/mssql
+
+networks:
+  mssqlnet:
+
+volumes:
+  mssql_data:

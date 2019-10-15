@@ -1,0 +1,54 @@
+datos del seguro
+codigo_seguro
+fecha_emision
+
+datos beneficiario
+nombre
+tarjeta_id
+sexo
+profesion
+direccion
+fecha nacimiento
+estado civil
+correo
+
+informacion adicional
+monto_asegurado
+plazo del prestamo
+posee prestamo (si/no)
+plan
+motivo del prestamo
+es refinanciamiento (si/no)
+especifique
+
+antecedentes de salud 
+tiene cancer
+tiene diabetes
+enfermedad al corazon
+epilepsia
+tumores
+presion arterial
+riñones
+enfermedad mental
+enfermedad cerebro vascular
+prostata
+aparato digestivo
+utero u ovarios
+otras enfermedades (texto)
+
+beneficiarios
+nombre
+parentezco
+distribucion
+
+
+designacion de cesionario
+nombre
+relacion
+distribucion
+
+firma autorizada
+lugar
+fecha
+firma solicitante
+
